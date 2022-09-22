@@ -12,7 +12,7 @@ namespace pz_5
             {
                 case 1:
                     int l = 0;
-                    for (int w = 20; w <= 100; w++)
+                    for (int w = 20; w <= 100; w += 5)
                     {
                         l++;
                         Console.WriteLine($"{l} шаг. {w}");
